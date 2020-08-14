@@ -1,0 +1,13 @@
+list1 = []
+n = int(input("enter the total numbers in the list"))
+
+for i in range(0,n):
+    
+    inp = int(input())
+    list1.append(inp)
+
+for i in list1:
+    if(i > 0) :
+        print(list1)
+    
+    
